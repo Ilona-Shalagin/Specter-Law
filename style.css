@@ -102,6 +102,11 @@ button{
     background-color: #1e313e;
     color: #efd3a2;
 }
+@media all and (max-width:820px){
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
 @media all and (max-width:800px){
     nav{
         display: flex;
@@ -109,13 +114,22 @@ button{
         
     }
     .section-about{
-        display: flex;
         flex-wrap: wrap;
     }
     .wrapper{
-        display: flex;
-        flex-direction: column;
-        
+        padding:0; 
     }
     
+}
+@media all and (max-width:500px){
+    img{
+        width:100%;
+    }
+    span{
+        padding:10px;
+        margin:10px;
+    }
+    .reason-block{
+        padding:10px;
+    }
 }
